@@ -1,0 +1,439 @@
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+.a{
+    font-family: "Azeret Mono", monospace;
+}
+.btn{
+    padding: 21px 24px;
+    background-color: #0D1321;
+    font-size: 20px;
+    color: white;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+}
+.btn-light{
+    padding: 12px 20px;
+    font-size: 20px;
+    border: 2px solid rgba(13, 19, 33, 0.541);
+    cursor: pointer;
+    background-color: transparent;
+    font-weight: 600;
+}
+
+
+
+
+header{
+    height: 640px;
+    background-image: url(../assets/Hero-bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header .header-info-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    text-align: center;
+    width: 950px;
+}
+header .header-info-container h1{
+    font-size: 48px;
+    font-weight: 800;
+}
+header .header-info-container p{
+    font-size: 16px;
+    color: #0D1321;
+    font-weight: 300;
+}
+
+
+
+
+.why-web-dev{
+    background-color: rgba(13, 19, 33, 0.020);
+    margin: 70px 145px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+    padding: 80px 95px;
+}
+.why-web-dev .title-div h1{
+    font-size: 32px;
+    margin-bottom: 30px;
+    font-weight: 800;
+    text-align: center;
+}
+.why-web-dev .title-div p{
+    font-size: 16px;
+    color: #0d132194;
+    font-weight: 400;
+    text-align: center;
+}
+
+.why-web-dev .segment-div{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.why-web-dev .segment-div .segment-1{
+    display: flex;
+    /* background-color: lightcoral; */
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+    background: linear-gradient(90deg,
+    white 20%,
+    rgba(255, 255, 255, 0.137) 100%);
+}
+.why-web-dev .segment-div .segment-1 .text{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+    gap: 20px;
+    color: #0d132194;
+    width: 50%;
+}
+.why-web-dev .segment-div .segment-1 .text h1{
+    color: #0d1321ab;
+}
+.why-web-dev .segment-div .segment-1 .text a{
+    color: #0d132194;
+    text-decoration: none;
+}
+
+
+.why-web-dev .segment-div .segment-2{
+    display: flex;
+    /* background-color: lightcoral; */
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+    background: linear-gradient(-90deg,
+    white 20%,
+    rgba(255, 255, 255, 0.137) 100%);
+}
+.why-web-dev .segment-div .segment-2 .text{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+    gap: 20px;
+    color: #0d132194;
+    width: 60%;
+}
+.why-web-dev .segment-div .segment-2 .text h1{
+    color: #0d1321ab;
+}
+.why-web-dev .segment-div .segment-2 .text a{
+    color: #0d132194;
+    text-decoration: none;
+}
+
+
+
+.why-web-dev .segment-div .segment-3{
+    display: flex;
+    /* background-color: lightcoral; */
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+    background: linear-gradient(90deg,
+    white 20%,
+    rgba(255, 255, 255, 0.137) 100%);
+}
+.why-web-dev .segment-div .segment-3 .text{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+    gap: 20px;
+    color: #0d132194;
+    width: 60%;
+}
+.why-web-dev .segment-div .segment-3 .text h1{
+    color: #0d1321ab;
+}
+.why-web-dev .segment-div .segment-3 .text a{
+    color: #0d132194;
+    text-decoration: none;
+}
+
+
+
+/* my inspiration section is starting */
+
+.my-inspiration{
+    margin: 0px 150px;
+    /* background-color: lightgreen; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+}
+.my-inspiration .text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    width: 65%;
+    gap: 20px;
+}
+.my-inspiration .text h1{
+    font-size: 32px;
+    font-weight: 800;
+}
+.my-inspiration .text p{
+    font-size: 16px;
+    color: #0d132194;
+}
+.my-inspiration .vdo{
+    
+    height: 450px;
+    
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    border-radius: 16px;
+    border: 1px solid #0d132141;
+}
+.my-inspiration .vdo iframe{
+    width: 100%;
+    height: 100%;
+    border-radius: 16px;
+}
+
+
+
+
+/* current target section starting...  */
+
+.current-target{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 100px 150px;
+}
+.current-target .text{
+    width: 70%;
+    margin: 0px auto;
+    text-align: center;
+}
+.current-target .text h1{
+    font-size: 32px;
+    margin-bottom: 20px;
+    font-weight: 800;
+}
+.current-target .text p{
+    font-size: 16px;
+    color: #0d132194;
+    margin-bottom: 40px;
+}
+
+
+
+.current-target .cards{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
+}
+.current-target .cards .card{
+    width: 32%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+    background-color: rgba(255, 75, 30, 0.050);
+    gap: 10px;
+    padding: 20px 20px;
+    border-radius: 16px;
+}
+.current-target .cards .card h3{
+    font-size: 24px;
+    font-weight: 800;
+}
+.current-target .cards .card p{
+    color: #0d132194;
+}
+.current-target .cards .card a{
+    color: black;
+    font-weight: 800;
+}
+
+
+.current-target .cards .card2{
+    background-color: rgba(0, 77, 232, 0.050);
+}
+.current-target .cards .card3{
+    background-color: rgba(255, 221, 0, 0.050);
+}
+
+
+
+
+
+/* next target is starting...  */
+.next-target{
+    margin: 0px 150px;
+}
+.next-target .text{
+    width: 70%;
+    margin: 0px auto;
+    text-align: center;
+}
+.next-target .text{
+    width: 70%;
+    margin: 0px auto;
+    text-align: center;
+}
+.next-target .text h1{
+    font-size: 32px;
+    margin-bottom: 20px;
+    font-weight: 800;
+}
+.next-target .text p{
+    font-size: 16px;
+    color: #0d132194;
+    margin-bottom: 40px;
+}
+
+
+
+.next-target .cards{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.next-target .cards .card{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    padding: 40px;
+    border-radius: 16px;
+    border: 1px solid #0d13213d;
+}
+.next-target .cards .card .about{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.next-target .cards .card .about h1{
+    font-size: 24px;
+    font-weight: 800;
+}
+.next-target .cards .card .about p{
+    color: #0d132194;
+}
+.next-target .cards .card .about a{
+    color: black;
+    font-weight: 800;
+    width: 120px;
+}
+
+
+
+
+/* need suppor section starting...  */
+
+.need-support{
+    height: 315px;
+    margin: 80px 150px;
+    border-radius: 16px;
+    background-image: url(../assets/handshake.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.need-support .container{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.432);
+    border-radius: 16px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}  
+.need-support .container h1{
+    font-size: 32px;
+    font-weight: 800;
+}
+.need-support .container p{
+    font-size: 16px;
+    width: 60%;
+    text-align: center;
+    color: #ffffffa6;
+    font-weight: 200;
+}
+.need-support .container .input-div{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+.need-support .container .input-div input{
+    padding: 18px 18px;
+    width: 50%;
+    border-radius: 8px;
+    border: none;
+    font-size: 16px;
+}
+.need-support .container .input-div button{
+    padding: 16px 25px;
+    border: none;
+    font-size: 20px;
+    border-radius: 8px;
+    background-color: white;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+
+
+/* footer is starting...  */
+footer{
+    padding: 32px 150px;
+    background-color: rgba(13, 19, 33, 0.030);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+footer p{
+    font-size: 20px;
+    font-weight: 600;
+}
+footer .social-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
